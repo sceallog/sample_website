@@ -3,8 +3,15 @@
   <head>
     <title>HTML Tags</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <div class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="tags.html" class="nav-spacing">HTML Tags</a>
+      <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
+    </div>
+
     <h1>Important HTML tags</h1>
     <a
       href="https://www.flickr.com/photos/jdhancock/3814523970"
@@ -25,6 +32,40 @@
       The tables below don't include all HTML tags, but they do list many of the
       most important ones.
     </p>
+
+    <h2>Document Tags</h2>
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>HTML</td>
+        <td>defines root of HTML document</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>contains metadata/information for the document</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>defines the document's body</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>defines a title for the document</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>defines metadata about an HTML document</td>
+      </tr>
+    </table>
 
     <h2>Block Elements</h2>
     <table>
@@ -62,6 +103,29 @@
         <td><code>td</code></td>
         <td>table data</td>
         <td>include a table data cell</td>
+      </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>section of the page; good for styling afterwards</td>
+      </tr>
+      <tr>
+        <td id="div_cell"><code>div</code></td>
+        <td>div</td>
+        <td>
+          divides the page into sections; block variant of
+          <a href="#span_cell"><code>span</code></a>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>creates a numbered list</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>creates a list with bullet points</td>
       </tr>
     </table>
 
@@ -119,6 +183,27 @@
         <td>add code snippets</td>
         <td><code>&lt;code&gt;This is source code&lt;code&gt;</code></td>
         <td><code>This is source code</code></td>
+      </tr>
+      <tr>
+        <td id="span_cell"><code>span</code></td>
+        <td>span</td>
+        <td>
+          divides the page into sections; inline version of
+          <a href="#div_cell"><code>div</code></a>
+        </td>
+        <td><code>&lt;span&gt;Some text inside&lt;div&gt;</code></td>
+        <td><span>Some text inside</span></td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>defines an item within a list</td>
+        <td><code>&lt;li&gt;list item&lt;li&gt;</code></td>
+        <td>
+          <ul>
+            <li>An item in an unordered list</li>
+          </ul>
+        </td>
       </tr>
     </table>
   </body>

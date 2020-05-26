@@ -1,0 +1,55 @@
+.nav-menu {
+  text-align: right;
+}
+
+.nav-spacing {
+  margin: 0 0 0 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.image-link {
+  text-decoration: none;
+}
+
+.whale-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.report {
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fafafa;
+}
+
+.book-cover {
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.report-quote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.first-sentence {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.header-moby {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.quote-lincoln {
+  padding: 2px 20px;
+  background: #cecece;
+}
